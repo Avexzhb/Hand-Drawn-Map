@@ -1,10 +1,10 @@
 古韵画境 (GuYun AI Art) 
 
-🎨基于 Google Gemini 2.5 驱动的中国传统手绘风格 AI 艺术生成器
+🎨基于 Google Gemini 3.0 pro 驱动的中国传统手绘风格 AI 艺术生成器
 
 🌟 项目简介“古韵画境”是一个将中国传统视觉美学与现代生成式人工智能深度融合的 Web 应用。它不仅是一个生图工具，更是一套成熟的“两阶段 AI 协议”实验场。通过深度优化的系统指令（System Instructions），它能将简单的关键词转化为极具文化叙事感的视觉作品。
 
-🚀 核心特性双模式协议引擎：内置“手绘城市地图”与“手绘特产工艺”两大核心协议。两阶段工作流 (Two-Stage Workflow)：逻辑推理层：由 gemini-2.5-flash 负责执行复杂的协议逻辑，生成详尽的生图提示词。视觉生成层：由 gemini-2.5-flash-image 负责将提示词转化为最终的高质量艺术图像。极致确定性控制：通过将 temperature 设为 0 并采用 mode: 'ANY' 的强制函数调用，确保 AI 严格遵守协议逻辑。
+🚀 核心特性双模式协议引擎：内置“手绘城市地图”与“手绘特产工艺”两大核心协议。两阶段工作流 (Two-Stage Workflow)：逻辑推理层：由 gemini 3.0 pro 负责执行复杂的协议逻辑，生成详尽的生图提示词。视觉生成层：由 gemini 4.0 image 负责将提示词转化为最终的高质量艺术图像。极致确定性控制：通过将 temperature 设为 0 并采用 mode: 'ANY' 的强制函数调用，确保 AI 严格遵守协议逻辑。
 
 🛠️ 技术栈前端框架：React + TypeScriptUI 库：Tailwind CSS + Lucide ReactAI SDK：@google/genai (适配 2026 最新语法)部署平台：GitHub Pages / AI Studio Build
 
